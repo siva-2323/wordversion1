@@ -1,0 +1,54 @@
+body{
+    color: black;
+
+}
+.title{
+    padding: 20px;
+    text-align: center;
+
+}
+.border{
+    background-color: black;
+    height: 5px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: 650px;
+    
+
+}
+.spiralBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spiral{
+    font-size: 40px;
+}
+
+
+.boxes{
+    width: 370px;
+    display: grid;
+    row-gap: 1px;
+    column-gap: 1px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: white;
+    margin-left: 730px;
+    margin-top: 10px;
+    color: black;
+    height: 500px;
+}
+.box{
+    height: 45px;
+    width: 45px;
+    font-size: 30px;
+    display: flex;
+    border: 5px solid #ccc;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
